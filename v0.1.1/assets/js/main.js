@@ -1,3 +1,6 @@
-import Application from './Application.js'
+import Application from "./Application.js";
 
-window.addEventListener('DOMContentLoaded', _ => new Application(), false)
+/**
+ * Create a new application when DOM is loaded
+ */
+window.addEventListener("DOMContentLoaded", _ => new Application(), false);
